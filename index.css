@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400&family=Varela+Round&display=swap');
+
+body {
+    background-color: rgba(82, 72, 72, 0.582);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav ul {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: wheat;
+    list-style-type: none;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+.maincontainer {
+    width: 26vw;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.container {
+    min-height: 56vh;
+    display: flex;
+    margin: 21px auto;
+    padding: 34px;
+    background-color: black;
+    color: chartreuse;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 60vw;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('photo-1518734121739-7550d2c027f1.avif');
+}
+
+
+.bottom {
+    position: sticky;
+    height: 150px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+
+.icon {
+    margin-top: 12px;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 70%;
+}
+
+.songItem {
+    background-color: white;
+    width: 45vw;
+    height: 40px;
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.songItem img {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 30px;
+    position: absolute;
+    transform: translate(-170px, -1px);
+}
+
+.SongName {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listboard {
+    position: absolute;
+
+    transform: translate(155px, 1px);
+
+}
+
+.iconddd {
+    margin: 0 23px;
+}
+
+.songif img {
+    position: absolute;
+    left: -7em;
+    height: 38px;
+    margin: -10px;
+    padding: 0 50px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songif {
+    height: 5vh;
+    position: absolute;
+    transform: translate(-300px, 14px);
+    width: 20vw;
+    /* background-color: red; */
+}
